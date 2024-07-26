@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Victor Agostinelli is a PhD candidate in the (School of Electrical Engineering and Computer Science)[https://engineering.oregonstate.edu/EECS] at (Oregon State University)[https://oregonstate.edu/], advised by (Lizhong Chen)[https://web.engr.oregonstate.edu/~chenliz/]. His research interests cover the intersection between efficient deep learning architectures and the design of custom hardware to accelerate those architectures in the form of software and hardware (SW/HW) co-design.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, Victor earned his Bachelor of Science degree from Oregon State University in 2020 and his Master of Science degree from Oregon State University in 2023. Currently, he actively collaborates with (Antonino Tumeo)[https://www.pnnl.gov/people/antonino-tumeo] at (Pacific Northwest National Laboratory)[https://www.pnnl.gov/] as part of the (Distinguished Graduate Research Program)[https://gradschool.oregonstate.edu/awards/pnnl-osu] to improve upon the optimization of specialized hardware for artificial intelligence.
