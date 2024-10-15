@@ -1,3 +1,16 @@
+@misc{ensinger2024swifthighperformancesparsetensor,
+      title={Swift: High-Performance Sparse Tensor Contraction for Scientific Applications}, 
+      author={Andrew Ensinger and Gabriel Kulp and Victor Agostinelli and Dennis Lyakhov and Lizhong Chen},
+      year={2024},
+      eprint={2410.10094},
+      arxiv={2410.10094},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS},
+      abstract={In scientific fields such as quantum computing, physics, chemistry, and machine learning, high dimensional data are typically represented using sparse tensors. Tensor contraction is a popular operation on tensors to exploit meaning or alter the input tensors. Tensor contraction is, however, computationally expensive and grows quadratically with the number of elements. For this reason, specialized algorithms have been created to only operate on the nonzero elements. Current sparse tensor contraction algorithms utilize sub-optimal data structures that perform unnecessary computations which increase execution time and the overall time complexity. We propose Swift, a novel algorithm for sparse tensor contraction that replaces the costly sorting with more efficient grouping, utilizes better data structures to represent tensors, and employs more memory-friendly hash table implementation. Swift is evaluated against the state-of-the-art sparse tensor contraction algorithm, demonstrating up to 20x speedup in various test cases and being able to handle imbalanced input tensors significantly better.}
+      url={https://arxiv.org/abs/2410.10094}, 
+      abbr={arXiv},
+}
+
 @misc{raffel2024simultaneousmaskingpromptingoptimization,
       title={Simultaneous Masking, Not Prompting Optimization: A Paradigm Shift in Fine-tuning LLMs for Simultaneous Translation}, 
       author={Matthew Raffel and Victor Agostinelli and Lizhong Chen},
