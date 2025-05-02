@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Ultraformer, a still-developing hyper-efficient transformer architecture featuring hybrid linear-sparse attention and ternary linear projections, has been accepted for presentation as a poster at FCCM '25!
+UltraFormer, a still-developing hyper-efficient transformer architecture featuring hybrid linear-sparse attention and ternary linear projections, has been accepted for presentation as a poster at FCCM '25!
