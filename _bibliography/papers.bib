@@ -1,3 +1,15 @@
+@misc{raffel2025beavertalkoregonstateuniversitys,
+      title={BeaverTalk: Oregon State University's IWSLT 2025 Simultaneous Speech Translation System}, 
+      author={Matthew Raffel and Victor Agostinelli and Lizhong Chen},
+      year={2025},
+      eprint={2505.24016},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.24016},
+      abbr={arXiv},
+      abstract={This paper discusses the construction, fine-tuning, and deployment of BeaverTalk, a cascaded system for speech-to-text translation as part of the IWSLT 2025 simultaneous translation task. The system architecture employs a VAD segmenter for breaking a speech stream into segments, Whisper Large V2 for automatic speech recognition (ASR), and Gemma 3 12B for simultaneous translation. Regarding the simultaneous translation LLM, it is fine-tuned via low-rank adaptors (LoRAs) for a conversational prompting strategy that leverages a single prior-sentence memory bank from the source language as context. The cascaded system participated in the EnglishGerman and EnglishChinese language directions for both the low and high latency regimes. In particular, on the EnglishGerman task, the system achieves a BLEU of 24.64 and 27.83 at a StreamLAAL of 1837.86 and 3343.73, respectively. Then, on the EnglishChinese task, the system achieves a BLEU of 34.07 and 37.23 at a StreamLAAL of 2216.99 and 3521.35, respectively.},
+}
+
 @inproceedings{agostinelli2025ultraformer,
   title={UltraFormer: An Efficient Transformer for FPGAs},
   author={Agostinelli, Victor and Agostini, Nicolas Bohm and Tumeo, Antonino},
